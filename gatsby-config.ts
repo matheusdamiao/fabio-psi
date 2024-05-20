@@ -14,7 +14,19 @@ const config: GatsbyConfig = {
     options: {
       "icon": "src/images/icon.png"
     }
-  }]
+  },
+  'gatsby-plugin-postcss',
+  `gatsby-plugin-image`,
+  `gatsby-plugin-sharp`,
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `pages`,
+      // Path to the directory
+      path: `${__dirname}/src/images`,
+    },
+  },
+]
 };
 
 export default config;
