@@ -18,14 +18,14 @@ const config: GatsbyConfig = {
   'gatsby-plugin-postcss',
   `gatsby-plugin-image`,
   `gatsby-plugin-sharp`,
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `pages`,
-      // Path to the directory
-      path: `${__dirname}/src/images`,
-    },
-  },
+  // {
+  //   resolve: `gatsby-source-filesystem`,
+  //   options: {
+  //     name: `images`,
+  //     // Path to the directory
+  //     path: `${__dirname}/src`,
+  //   },
+  // },
 ]
 };
 
