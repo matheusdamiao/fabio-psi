@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useWindowDimensions from "./../utils/useWindowDimension";
-import { StaticImage } from "gatsby-plugin-image";
+import logoBranca from "./../images/logo-branca.webp";
 
 const NavBar = () => {
   const size = useWindowDimensions();
@@ -19,8 +19,8 @@ const NavBar = () => {
   return (
     <div className="bg-transparent absolute top-0 w-full h-24 lg:h-32 flex items-center justify-center flex-col pt-4 px-6 z-50">
       <div className=" flex items-center relative justify-end max-w-7xl w-full m-auto">
-        <StaticImage
-          src="../images/logo-branca.webp"
+        <img
+          src={logoBranca}
           width={214}
           height={76.11}
           alt="logo"
