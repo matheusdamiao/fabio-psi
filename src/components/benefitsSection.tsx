@@ -24,7 +24,7 @@ const BenefitsSection = () => {
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
             <p className="text-white font-semibold lg:text-xl text-base  ">
-              Aprenda a organizar seus sentimentos e emoções
+              Deixe vir à tona os seus sentimentos e emoções
             </p>
           </div>
           <div className="px-6 flex items-center z-40 gap-5 ">
@@ -36,7 +36,7 @@ const BenefitsSection = () => {
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
             <p className="text-white font-semibold lg:text-xl text-base   ">
-              Canalize sua energia psíquica para seus objetivos
+              Descubra como somos afetados pelo outro e pelo mundo
             </p>
           </div>
           <div className="px-6 flex items-center z-40 gap-5 ">
@@ -48,7 +48,7 @@ const BenefitsSection = () => {
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
             <p className="text-white font-semibold lg:text-xl text-base  ">
-              Compreenda melhor a si mesmo
+              Trabalhe as deformações e repressões dos afetos
             </p>
           </div>
           <div className="px-6 flex items-center z-40 gap-5 ">
@@ -60,7 +60,7 @@ const BenefitsSection = () => {
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
             <p className="text-white font-semibold lg:text-xl text-base   ">
-              Resolva conflitos e traumas internos
+              Elabore conflitos e traumas
             </p>
           </div>
           <div className="px-6 flex items-center z-40 gap-5 ">
@@ -72,7 +72,8 @@ const BenefitsSection = () => {
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
             <p className="text-white font-semibold lg:text-xl text-base  ">
-              Melhore seus relacionamentos afetivos
+              Aprenda a criar melhores conexões afetivas: “Amar para não
+              adoecer”. (Freud)
             </p>
           </div>
         </div>

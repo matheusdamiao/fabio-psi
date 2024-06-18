@@ -32,6 +32,7 @@ const AboutSection = () => {
           <li className="list-disc">
             Professor de Psicanálise do Instituto Falasser/SP
           </li>
+          <li>Pós-doutor em Educação (PUC/RS)</li>
           <li className="list-disc">
             Pós-doutor em Psicologia Social (U. do Porto/PT)
           </li>

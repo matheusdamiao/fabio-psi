@@ -12,10 +12,11 @@ const PsicanaliseSection = () => {
           Psicanálise, <br /> da fala ao profundo inconsciente
         </h2>
         <h3 className="px-6 text-base lg:text-xl text-[#373C38] font-medium max-w-[700px] pt-[33px]">
-          A terapia psicanalítica é feita através de sessões. <br /> Em cada
-          uma, o objetivo é explorar através da fala as emoções, pensamentos e
-          memórias inconscientes de uma pessoa para entender e resolver questões
-          psicológicas que possam estar influenciando seu bem-estar emocional.
+          A prática psicanalítica convida a pessoa a uma fala livre com o
+          objetivo de adentrar nas emoções e memórias inconscientes que
+          frequentemente causam angústia e sofrimento. <br />
+          Para isso, o psicanalista é um companheiro desta viagem fascinante
+          rumo ao inconsciente.
         </h3>
         <div className="flex flex-wrap items-center justify-center py-[66px] gap-12 lg:gap-6">
           <div className="px-6 flex flex-col items-center gap-5 lg:max-w-[300px] w-full ">
@@ -47,8 +48,8 @@ const PsicanaliseSection = () => {
               Ambiente acolhedor
             </h4>
             <p className="text-[#373C38] text-center">
-              A terapia proporciona um ambiente acolhedor e seguro para você se
-              sentir bem e à vontade.
+              A prática analítica proporciona um ambiente acolhedor e seguro
+              para você se sentir bem e à vontade.
             </p>
           </div>
 
@@ -65,7 +66,7 @@ const PsicanaliseSection = () => {
             </h4>
             <p className="text-[#373C38] text-center">
               Cada sessão é um novo passo rumo ao autoconhecimento e a uma
-              compreensão dos seus comportamentos e sentimentos
+              compreensão dos seus padrões e sentimentos
             </p>
           </div>
 
@@ -81,8 +82,8 @@ const PsicanaliseSection = () => {
               Sessões regulares
             </h4>
             <p className="text-[#373C38] text-center">
-              A terapia é um processo gradual que envolve explorar questões
-              profundas. Para ser significativo é preciso consistência
+              A análise é um processo gradual que envolve explorar questões
+              profundas. Deixe-se conduzir por esta experiência
             </p>
           </div>
         </div>
