@@ -4,8 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
-
+.swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+  
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -13,3 +19,24 @@ body {
 .BgTransparent{
     background-color: transparent;
 }
+
+.rotate-hand {
+    animation: handMove 2s infinite;
+}
+
+@keyframes handMove {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+

@@ -29,16 +29,34 @@ const NavBar = () => {
         <ul className="hidden lg:flex gap-10 self-end lg:pr-20">
           <li>
             <a
-              href="/#about"
-              className="text-[#c2c2c2]  font-body lg:text-base  hover:text-[#FFFF]  hover:after:w-full after:w-0  hover:after:h-[2px] after:bg-[#3F5C9A] hover:after:block after:transition-all relative after:absolute after:bottom-[-5px]"
+              href="/#analise"
+              className="text-[#c2c2c2]  font-body lg:text-base  hover:text-[#FFFF]  hover:after:w-full after:w-0  hover:after:h-[2px] after:bg-[#48664E] hover:after:block after:transition-all relative after:absolute after:bottom-[-5px]"
             >
-              Sobre mim
+              Análise
             </a>
           </li>
           <li>
             <a
-              href="/#contact"
-              className="text-[#c2c2c2]  font-body lg:text-base hover:text-[#FFFF] hover:after:w-full after:w-0  hover:after:h-[2px] after:bg-[#3F5C9A] hover:after:block after:transition-all relative after:absolute after:bottom-[-5px]"
+              href="/#psicanalise"
+              className="text-[#c2c2c2]  font-body lg:text-base hover:text-[#FFFF] hover:after:w-full after:w-0  hover:after:h-[2px] after:bg-[#48664E] hover:after:block after:transition-all relative after:absolute after:bottom-[-5px]"
+            >
+              Psicanálise
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/#sobre"
+              className="text-[#c2c2c2]  font-body lg:text-base hover:text-[#FFFF] hover:after:w-full after:w-0  hover:after:h-[2px] after:bg-[#48664E] hover:after:block after:transition-all relative after:absolute after:bottom-[-5px]"
+            >
+              Sobre mim
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/#contato"
+              className="text-[#c2c2c2]  font-body lg:text-base hover:text-[#FFFF] hover:after:w-full after:w-0  hover:after:h-[2px] after:bg-[#48664E] hover:after:block after:transition-all relative after:absolute after:bottom-[-5px]"
             >
               Contato
             </a>
