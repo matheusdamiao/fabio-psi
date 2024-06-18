@@ -85,12 +85,32 @@ const NavBar = () => {
           } `}
         >
           <li>
-            <a href="#about" className="text-[#494949]  font-body lg:text-xl">
+            <a href="/#sobre" className="text-[#494949]  font-body lg:text-xl">
               Sobre mim
             </a>
           </li>
+
           <li>
-            <a href="#contact" className="text-[#494949]  font-body lg:text-xl">
+            <a
+              href="/#analise"
+              className="text-[#494949]  font-body lg:text-xl"
+            >
+              Análise
+            </a>
+          </li>
+          <li>
+            <a
+              href="/#psicanalise"
+              className="text-[#494949]  font-body lg:text-xl"
+            >
+              Psicanálise
+            </a>
+          </li>
+          <li>
+            <a
+              href="/#contato"
+              className="text-[#494949]  font-body lg:text-xl"
+            >
               Contato
             </a>
           </li>

@@ -29,9 +29,12 @@ const HeroSection = () => {
             angústias e sofrimentos do dia-a-dia tornando a vida mais
             interessante e fascinante
           </h3>
-          <button className="bg-[#48664E] text-base px-4 py-3 lg:text-xl z-10  max-w-[352px] w-full">
+          <a
+            href="/#contato"
+            className="bg-[#48664E] text-base px-4 py-3 lg:text-xl z-10  max-w-[352px] w-full"
+          >
             Inicie sua jornada
-          </button>
+          </a>
           <small>Atendimento Online</small>
         </div>
         <div>

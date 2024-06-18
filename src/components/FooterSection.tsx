@@ -12,8 +12,12 @@ const FooterSection = () => {
           <h4 className="text-[#151F18] font-medium text-lg">Contato</h4>
           <ul className="flex flex-col gap-1">
             <li>
-              <a href="" className="text-[#302D2D]">
-                55 11 939-39393
+              <a
+                href="https://api.whatsapp.com/send?phone=555192787808"
+                target="_blank"
+                className="text-[#302D2D] cursor-pointer"
+              >
+                +55 51 9278-7808
               </a>
             </li>
             <li className="">
@@ -27,27 +31,27 @@ const FooterSection = () => {
           <h4 className="text-[#151F18] font-medium text-lg">Site</h4>
           <ul className="flex flex-col gap-1">
             <li>
-              <a href="" className="text-[#302D2D]">
+              <a href="/#analise" className="text-[#302D2D]">
                 Benefícios
               </a>
             </li>
             <li>
-              <a href="" className="text-[#302D2D]">
+              <a href="/#psicanalise" className="text-[#302D2D]">
                 Sobre a Psicanálise
               </a>
             </li>
             <li>
-              <a href="" className="text-[#302D2D]">
+              <a href="/#sobre" className="text-[#302D2D]">
                 Sobre o Fábio
               </a>
             </li>
             <li>
-              <a href="" className="text-[#302D2D]">
+              <a href="/#perguntas" className="text-[#302D2D]">
                 Perguntas Frequentes
               </a>
             </li>
             <li>
-              <a href="" className="text-[#302D2D]">
+              <a href="/#depoimentos" className="text-[#302D2D]">
                 Depoimentos
               </a>
             </li>
