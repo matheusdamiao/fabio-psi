@@ -4,7 +4,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `Fábio Teixeira - Psicanalista`,
     description: "Cultive bem-estar e autoconhecimento através da Psicanálise",
-    image: `/icon.png`,
+    image: `src/images/icon.png`,
     siteUrl: `https://fabioteixeira.netlify.app/`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
