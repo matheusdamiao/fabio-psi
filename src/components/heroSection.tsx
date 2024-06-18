@@ -31,7 +31,7 @@ const HeroSection = () => {
           </h3>
           <a
             href="/#contato"
-            className="bg-[#48664E] text-base px-4 py-3 lg:text-xl z-10  max-w-[352px] w-full"
+            className="bg-[#48664E] text-center text-base px-4 py-3 lg:text-xl z-10  max-w-[352px] w-full"
           >
             Inicie sua jornada
           </a>
