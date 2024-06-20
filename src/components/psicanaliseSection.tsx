@@ -11,12 +11,11 @@ const PsicanaliseSection = () => {
         <h2 className="px-6 text-3xl lg:text-4xl text-[#151F18] font-semibold ">
           Psicanálise, <br /> da fala ao profundo inconsciente
         </h2>
-        <h3 className="px-6 text-base lg:text-xl text-[#373C38] font-medium max-w-[700px] pt-[33px]">
+        <h3 className="px-6 text-base lg:text-xl text-[#373C38] font-medium max-w-[700px] pt-[33px] text-justify">
           A prática psicanalítica convida a pessoa a uma fala livre com o
           objetivo de adentrar nas emoções e memórias inconscientes que
-          frequentemente causam angústia e sofrimento. <br />
-          Para isso, o psicanalista é um companheiro desta viagem fascinante
-          rumo ao inconsciente.
+          frequentemente causam angústia e sofrimento. Para isso, o psicanalista
+          é um companheiro desta viagem fascinante rumo ao inconsciente.
         </h3>
         <div className="flex flex-wrap items-center justify-center py-[66px] gap-12 lg:gap-6">
           <div className="px-6 flex flex-col items-center gap-5 lg:max-w-[300px] w-full ">

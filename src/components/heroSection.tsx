@@ -25,9 +25,9 @@ const HeroSection = () => {
             Cultive bem-estar e saúde mental através da Psicanálise
           </h1>
           <h3 className=" font-medium lg:text-2xl text-lg max-w-[550px] text-center lg:text-left ">
-            O processo analítico pode ajudar a se fortalecer diante das
-            angústias e sofrimentos do dia-a-dia tornando a vida mais
-            interessante e fascinante
+            O processo analítico pode ser eficaz diante das angústias e
+            sofrimentos do dia-a-dia tornando a vida mais fortalecida,
+            interessante e fascinante.
           </h3>
           <a
             href="/#contato"
@@ -35,7 +35,9 @@ const HeroSection = () => {
           >
             Inicie sua jornada
           </a>
-          <small>Atendimento Online</small>
+          <small className="text-center w-full max-w-[352px] mt-[-20px]">
+            Atendimento Online
+          </small>
         </div>
         <div>
           <StaticImage

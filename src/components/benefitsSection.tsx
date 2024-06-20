@@ -11,7 +11,7 @@ const BenefitsSection = () => {
       />
       <span className="bg-[linear-gradient(263deg,rgba(72,102,78,0.36)_23.41%,rgba(0,0,0,0.85)_79.01%)] absolute h-full w-full top-0"></span>
       <div className="flex flex-col max-w-7xl mx-auto w-full h-full py-20">
-        <h2 className="px-6  text-3xl lg:text-5xl text-white font-medium !leading-tight max-w-[847px] z-30">
+        <h2 className="px-6  text-3xl lg:text-4xl text-white font-semibold !leading-tight max-w-[847px] z-30">
           A angústia pode se transformar em uma bússola poderosa
         </h2>
         <div className="flex flex-col py-[66px] gap-[40px]">
@@ -23,7 +23,7 @@ const BenefitsSection = () => {
               height={30.29}
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
-            <p className="text-white font-semibold lg:text-xl text-base  ">
+            <p className="text-white font-medium lg:text-xl text-base  ">
               Deixe vir à tona os seus sentimentos e emoções
             </p>
           </div>
@@ -35,7 +35,7 @@ const BenefitsSection = () => {
               height={30.29}
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
-            <p className="text-white font-semibold lg:text-xl text-base   ">
+            <p className="text-white font-medium lg:text-xl text-base   ">
               Descubra como somos afetados pelo outro e pelo mundo
             </p>
           </div>
@@ -47,7 +47,7 @@ const BenefitsSection = () => {
               height={30.29}
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
-            <p className="text-white font-semibold lg:text-xl text-base  ">
+            <p className="text-white font-medium lg:text-xl text-base  ">
               Trabalhe as deformações e repressões dos afetos
             </p>
           </div>
@@ -59,7 +59,7 @@ const BenefitsSection = () => {
               height={30.29}
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
-            <p className="text-white font-semibold lg:text-xl text-base   ">
+            <p className="text-white font-medium lg:text-xl text-base   ">
               Elabore conflitos e traumas
             </p>
           </div>
@@ -71,7 +71,7 @@ const BenefitsSection = () => {
               height={30.29}
               className="flex-0 flex-grow-0 flex-shrink-0"
             />
-            <p className="text-white font-semibold lg:text-xl text-base  ">
+            <p className="text-white font-medium lg:text-xl text-base  ">
               Aprenda a criar melhores conexões afetivas: “Amar para não
               adoecer”. (Freud)
             </p>

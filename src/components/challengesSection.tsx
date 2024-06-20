@@ -15,13 +15,13 @@ const ChallengesSection = () => {
       O <b>trauma</b> não define o seu futuro. A análise pode ajudá-lo a
       escrever um novo capítulo.
     </p>,
-    <p
-      key="3"
-      className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[350px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
-    >
-      Transforme a <b>solidão</b> em uma jornada de autodescoberta e conexão
-      emocional
-    </p>,
+    // <p
+    //   key="3"
+    //   className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[350px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
+    // >
+    //   Transforme a <b>solidão</b> em uma jornada de autodescoberta e conexão
+    //   emocional
+    // </p>,
     <p
       key="4"
       className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[400px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
@@ -34,14 +34,14 @@ const ChallengesSection = () => {
       className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] max-w-[450px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
     >
       A análise pode ajudar a reconhecer os padrões repetitivos que impactam a
-      sua saúde mental
+      sua <b>saúde mental</b>
     </p>,
     <p
       key="6"
       className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[350px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
     >
-      Atravesse as adversidades enquanto encontra conforto e apoio no processo
-      analítico.
+      Atravesse as <b>adversidades</b> enquanto encontra conforto e apoio no
+      processo analítico.
     </p>,
     // <p
     //   key="7"
@@ -53,7 +53,7 @@ const ChallengesSection = () => {
 
   return (
     <div className="max-w-7xl w-full mx-auto my-[100px]">
-      <h2 className="px-6 text-3xl lg:text-5xl text-[#151F18] font-semibold text-center">
+      <h2 className="px-6 text-3xl lg:text-4xl text-[#151F18] font-semibold text-center">
         Como a psicanálise pode ajudar a transformar sua vida?
       </h2>
       <h3 className=" px-6 text-lg lg:text-2xl text-[#373C38] font-medium text-center max-w-[700px] mx-auto pt-[33px]">

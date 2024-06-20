@@ -43,7 +43,7 @@ const FAQsection = () => {
     >
       <div className="flex items-center justify-center flex-wrap py-6 lg:flex-row flex-col gap-4">
         <img src={dialog} alt="" width={45} height={45} />
-        <h2 className="px-6  text-3xl lg:text-5xl text-[#151F18] text-center font-medium !leading-tight max-w-[847px] z-30">
+        <h2 className="px-6  text-3xl lg:text-4xl text-[#151F18] text-center font-semibold !leading-tight max-w-[847px] z-30">
           Dúvidas Frequentes
         </h2>
       </div>

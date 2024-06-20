@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import dm from "./../icons/dm.svg";
-import bg from "./../images/bg-formsection.webp";
+import bg from "./../images/fabio-psi.webp";
 import zap from "./../icons/whatsapp.svg";
 
 const FormSection = () => {
@@ -61,7 +61,7 @@ const FormSection = () => {
         <div className="flex flex-col px-6 max-w-7xl w-full">
           <div className="flex items-center flex-wrap py-6 lg:flex-row flex-col gap-4">
             <img src={dm} alt="" width={45} height={45} />
-            <h2 className="px-6  text-3xl lg:text-5xl text-[#151F18] font-medium !leading-tight  z-30">
+            <h2 className="px-6  text-3xl lg:text-4xl text-[#151F18] font-semibold !leading-tight  z-30">
               Diga ‘Olá!’
             </h2>
           </div>

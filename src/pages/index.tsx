@@ -19,11 +19,11 @@ const IndexPage: React.FC<PageProps> = () => {
       <ChallengesSection />
       <BenefitsSection />
       <PsicanaliseSection />
-      <QuoteSection />
       <AboutSection />
       <ReviewSection />
       <FAQsection />
       <FormSection />
+      <QuoteSection />
       <FooterSection />
     </div>
   );

@@ -10,26 +10,35 @@ const FooterSection = () => {
         </div>
         <div className="flex flex-col gap-6 pt-4">
           <h4 className="text-[#151F18] font-medium text-lg">Contato</h4>
-          <ul className="flex flex-col gap-1">
+          <ul className="flex flex-col gap-2">
             <li>
               <a
                 href="https://api.whatsapp.com/send?phone=555192787808"
                 target="_blank"
                 className="text-[#302D2D] cursor-pointer"
               >
-                +55 51 9278-7808
+                (51) 99278-7808
               </a>
             </li>
             <li className="">
               <a href="" className="text-[#302D2D]">
-                contato@fabioteixeira.com.br
+                fabiotsdoc@gmail.com
+              </a>
+            </li>
+            <li className="">
+              <a
+                href="https://www.instagram.com/fabioepsicanalise"
+                target="_blank"
+                className="text-[#302D2D]"
+              >
+                @fabioepsicanalise
               </a>
             </li>
           </ul>
         </div>
         <div className="flex flex-col gap-6 pt-4">
           <h4 className="text-[#151F18] font-medium text-lg">Site</h4>
-          <ul className="flex flex-col gap-1">
+          <ul className="flex flex-col gap-2">
             <li>
               <a href="/#analise" className="text-[#302D2D]">
                 Benefícios

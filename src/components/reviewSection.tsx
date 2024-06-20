@@ -33,7 +33,7 @@ const ReviewSection = () => {
       id="depoimentos"
       className="w-full h-full flex flex-col items-center justify-center pt-[80px]"
     >
-      <h2 className="px-6  text-3xl lg:text-4xl text-[#151F18] text-center font-bold !leading-tight max-w-[847px] z-30">
+      <h2 className="px-6  text-3xl lg:text-4xl  text-[#151F18] text-center font-semibold !leading-tight max-w-[847px] z-30">
         O que meus pacientes dizem
       </h2>
       <div className="flex flex-col items-center justify-center gap-3 pt-6">

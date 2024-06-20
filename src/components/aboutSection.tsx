@@ -32,7 +32,7 @@ const AboutSection = () => {
           <li className="list-disc">
             Professor de Psicanálise do Instituto Falasser/SP
           </li>
-          <li>Pós-doutor em Educação (PUC/RS)</li>
+          <li className="list-disc">Pós-doutor em Educação (PUC/RS)</li>
           <li className="list-disc">
             Pós-doutor em Psicologia Social (U. do Porto/PT)
           </li>
@@ -40,15 +40,15 @@ const AboutSection = () => {
           <li className="list-disc"> Especialista em Psicanálise (PUC/PR)</li>
           <li className="list-disc">Licenciado em Filosofia (USF/SP)</li>
         </ul>
-        <a
+        {/* <a
           href="http://lattes.cnpq.br/1232457035398130"
           target="_blank"
           className="rounded-[9px] lg:order-3 border-[#A4A4A4] border-[1px] gap-3 lg:ml-0 ml-6 px-2 py-2 flex items-center justify-center max-w-[200px] w-full"
         >
           <img src={lattes} alt="" />
           Currículo Lattes
-        </a>
-        <div className="flex flex-col lg:order-5 lg:row-span-1 pt-5 px-6 lg:px-0">
+        </a> */}
+        {/* <div className="flex flex-col lg:order-5 lg:row-span-1 pt-5 px-6 lg:px-0">
           <h4 className="text-[#373C38] font-medium text-xl">
             Alguns dos meus textos
           </h4>
@@ -57,7 +57,7 @@ const AboutSection = () => {
             <p className="text-[#7C827D] text-lg">Titulo do texto 2</p>
             <p className="text-[#7C827D] text-lg">Titulo do texto 3</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
