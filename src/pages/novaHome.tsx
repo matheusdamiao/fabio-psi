@@ -1,6 +1,6 @@
 import * as React from "react";
 import { type HeadFC, type PageProps } from "gatsby";
-import HeroSection from "../components/heroSection";
+import HeroSectionNew from "../components/heroSectionNew";
 import ChallengesSection from "../components/challengesSection";
 import BenefitsSection from "../components/benefitsSection";
 import PsicanaliseSection from "../components/psicanaliseSection";
@@ -11,12 +11,12 @@ import FAQsection from "../components/FAQsection";
 import FormSection from "../components/formSection";
 import FooterSection from "../components/FooterSection";
 import { SEO } from "../components/seo";
-import fabio from "./../images/fabio-foto.webp";
+import fabio from "./../images/fabio-foto-about-new.webp";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div className="">
-      <HeroSection />
+      <HeroSectionNew />
       <ChallengesSection />
       <BenefitsSection />
       <PsicanaliseSection />

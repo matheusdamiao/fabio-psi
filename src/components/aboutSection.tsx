@@ -1,9 +1,12 @@
 import React from "react";
 import hand from "./../icons/waving-hand.svg";
 import lattes from "./../icons/lattes.svg";
-import fabio from "./../images/fabio-foto.webp";
 
-const AboutSection = () => {
+interface AboutProps {
+  img: string;
+}
+
+const AboutSection = (props: AboutProps) => {
   return (
     <div id="sobre" className="w-full h-full max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[1000px] gap-x-[100px] gap-[20px] mx-auto py-[100px] ">
@@ -14,7 +17,7 @@ const AboutSection = () => {
           </h2>
         </div>
         <img
-          src={fabio}
+          src={props.img}
           className="lg:order-1 lg:row-span-5  lg:col-span-1 lg:max-h-[850px] px-6 max-h-[450px] mx-auto"
         />
         <p className="lg:order-3 lg:row-span-1 font-medium text-xl text-[#373C38] max-w-[450px] px-6 lg:px-0">
@@ -30,7 +33,7 @@ const AboutSection = () => {
         </p>
         <ul className="lg:order-4 lg:row-span-1 text-[#151F18] pt-5 lg:pl-[18px] pl-[40px]  lg:px-0">
           <li className="list-disc">
-            Professor de Psicanálise do Instituto Falasser/SP
+            Professor de Psicanálise do Instituto Lalettre/SP
           </li>
           <li className="list-disc">Pós-doutor em Educação (PUC/RS)</li>
           <li className="list-disc">
