@@ -8,13 +8,7 @@ const ChallengesSection = () => {
     >
       A <b>angústia</b> pode ser um labirinto, mas também pode ser uma bússola.
     </p>,
-    <p
-      key="2"
-      className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] max-w-[450px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
-    >
-      O <b>trauma</b> não define o seu futuro. A análise pode ajudá-lo a
-      escrever um novo capítulo.
-    </p>,
+
     // <p
     //   key="3"
     //   className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[350px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
@@ -23,22 +17,29 @@ const ChallengesSection = () => {
     //   emocional
     // </p>,
     <p
-      key="4"
-      className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[400px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
+      key="2"
+      className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[550px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
     >
-      A análise não pretende tornar ninguém <b>“normal”</b>, mas respeitar e
-      lutar pelo seu desejo.
+      A Psicanálise ajuda a identificar a origem dos{" "}
+      <b> sentimentos ansiosos </b> que vão além do comportamento.
     </p>,
     <p
-      key="5"
+      key="3"
+      className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] max-w-[450px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
+    >
+      Permita <b> vivenciar a tristeza </b> como caminho rumo à autonomia e à
+      mudança.
+    </p>,
+    <p
+      key="4"
       className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] max-w-[450px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
     >
       A análise pode ajudar a reconhecer os padrões repetitivos que impactam a
       sua <b>saúde mental</b>
     </p>,
     <p
-      key="6"
-      className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[350px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
+      key="5"
+      className="px-8 py-6 stroke-[#48664E] rounded-[26px] border-[1px] lg:max-w-[450px] transition-colors duration-700 hover:bg-[#48664E] text-[#7A857D] hover:text-white"
     >
       Atravesse as <b>adversidades</b> enquanto encontra conforto e apoio no
       processo analítico.
